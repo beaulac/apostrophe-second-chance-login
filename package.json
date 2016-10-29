@@ -1,6 +1,6 @@
 {
   "name": "apostrophe-second-chance-login",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Second chance login feature for Apostrophe 2.x sites",
   "main": "index.js",
   "scripts": {
