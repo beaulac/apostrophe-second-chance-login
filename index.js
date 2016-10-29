@@ -9,7 +9,8 @@ module.exports = {
         return setImmediate(callback);
       }
 
-      var bestSlugSoFar = (req.data.bestPage && req.data.bestPage.slug) || '/';
+      // The home page is a thing that might require login too
+      var bestSlugSoFar = (req.data.bestPage && req.data.bestPage.slug) || '';
 
       var testReq = self.apos.tasks.getReq();
       testReq.data = {};
